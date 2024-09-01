@@ -7,20 +7,25 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State private var isPresented: Bool = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+           
+            Text("Amandeep Kaur").font(.largeTitle)
+                    .padding(36.0)
+                
+            Button("Let's Go") {
+                AmanNotification.generaterNotification(title: "Caution", body: "Too fast!")
+            }
+            
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

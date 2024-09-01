@@ -11,6 +11,7 @@
 		943AC7802995D57E006583C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943AC77F2995D57E006583C2 /* ContentView.swift */; };
 		943AC7822995D57F006583C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943AC7812995D57F006583C2 /* Assets.xcassets */; };
 		943AC7852995D57F006583C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943AC7842995D57F006583C2 /* Preview Assets.xcassets */; };
+		943AC78E2995E011006583C2 /* AmanNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943AC78D2995E011006583C2 /* AmanNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		943AC77F2995D57E006583C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		943AC7812995D57F006583C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943AC7842995D57F006583C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		943AC78D2995E011006583C2 /* AmanNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmanNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				943AC77F2995D57E006583C2 /* ContentView.swift */,
 				943AC7812995D57F006583C2 /* Assets.xcassets */,
 				943AC7832995D57F006583C2 /* Preview Content */,
+				943AC78D2995E011006583C2 /* AmanNotification.swift */,
 			);
 			path = Amandeep_Kaur_MidTerm;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				943AC7802995D57E006583C2 /* ContentView.swift in Sources */,
+				943AC78E2995E011006583C2 /* AmanNotification.swift in Sources */,
 				943AC77E2995D57E006583C2 /* Amandeep_Kaur_MidTermApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
